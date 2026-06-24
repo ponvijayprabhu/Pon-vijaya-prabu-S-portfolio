@@ -542,12 +542,12 @@ document.getElementById('downloadResume').addEventListener('click', (e) => {
   e.preventDefault();
 
   // Path to your resume file
-  const resumeUrl = 'PON VIJAYA PRABU S.pdf'; // e.g., put resume.pdf inside "files" folder
+  const resumeUrl = 'PON VIJAYA PRABU S Resume.pdf'; // e.g., put resume.pdf inside "files" folder
 
   // Create a hidden <a> element to trigger download
   const link = document.createElement('a');
   link.href = resumeUrl;
-  link.download = 'PON VIJAYA PRABU S.pdf'; // The downloaded file name
+  link.download = 'PON VIJAYA PRABU S Resume.pdf'; // The downloaded file name
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
